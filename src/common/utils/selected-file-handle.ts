@@ -1,4 +1,3 @@
-import { ElMessage, ElMessageBox } from 'element-plus'
 import { getFileSize, isImage } from './file-handle-helper'
 
 const selectedFileHandle = (file: File, maxsize: number): Promise<string> | null => {

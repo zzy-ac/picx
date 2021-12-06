@@ -136,7 +136,6 @@
 
 <script lang="ts">
 import { computed, defineComponent, reactive, toRefs, onMounted } from 'vue'
-import { ElMessage } from 'element-plus'
 import { useStore } from '@/store'
 import { getFileSize } from '@/common/utils/file-handle-helper'
 import { UserConfigInfoModel } from '@/common/model/userConfigInfo.model'

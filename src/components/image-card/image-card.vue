@@ -35,8 +35,7 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, ref, watch } from 'vue'
-import { ElMessage, ElMessageBox } from 'element-plus'
+import { computed, ref } from 'vue'
 import { useStore } from '@/store'
 import axios from '@/common/utils/axios'
 import { UploadedImageModel } from '@/common/model/upload.model'

@@ -21,7 +21,6 @@
 <script lang="ts">
 import { defineComponent, reactive, toRefs, onMounted, watch, computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { ElMessage } from 'element-plus'
 import { useStore } from '@/store'
 import { UserConfigInfoModel } from '@/common/model/userConfigInfo.model'
 

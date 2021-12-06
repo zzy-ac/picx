@@ -229,7 +229,6 @@
 <script lang="ts">
 import { defineComponent, reactive, computed, toRefs, watch } from 'vue'
 import { useRouter } from 'vue-router'
-import { ElMessage } from 'element-plus'
 import { useStore } from '@/store'
 import { DirModeEnum } from '@/common/model/dir.model'
 import { BranchModeEnum, UserConfigInfoModel } from '@/common/model/userConfigInfo.model'
