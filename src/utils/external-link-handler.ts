@@ -32,7 +32,7 @@ export const generateExternalLink = (
 ): string => {
   const staticalyLink: string = `https://cdn.staticaly.com/gh/${config.owner}/${config.selectedRepos}@${config.selectedBranch}/${content.path}`
   const cloudflareLink: string = `https://git.poker/${config.owner}/${config.selectedRepos}/blob/${config.selectedBranch}/${content.path}?raw=true`
-  const jsdelivrLink: string = `https://cdn.jsdelivr.net/gh/${config.owner}/${config.selectedRepos}@${config.selectedBranch}/${content.path}`
+  const jsdelivrLink: string = `https://cdn.dmnb.cf/gh/${config.owner}/${config.selectedRepos}@${config.selectedBranch}/${content.path}`
   const githubLink: string = decodeURI(content.download_url)
 
   // eslint-disable-next-line default-case
