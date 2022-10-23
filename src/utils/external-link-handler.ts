@@ -44,7 +44,7 @@ export const generateExternalLink = (
       return githubLink
 
     default:
-      return githubLink
+      return jsdelivrLink
   }
 }
 
