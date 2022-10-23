@@ -42,8 +42,7 @@
           placeholder="选择 CDN 提供商"
           @change="saveUserSettings"
         >
-          <el-option label="Staticaly" value="staticaly"></el-option>
-          <el-option label="Cloudflare" value="cloudflare"></el-option>
+          <el-option label="github" value="github"></el-option>
           <el-option label="jsDelivr" value="jsdelivr"></el-option>
         </el-select>
       </li>
