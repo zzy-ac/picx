@@ -60,7 +60,7 @@
           class="btn-item copy-url flex-center"
           @click="copyLink(externalLinkType.github)"
         >
-          github
+          GitHub
         </span>
       </el-tooltip>
     </div>
