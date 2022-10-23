@@ -47,20 +47,20 @@
       </el-tooltip>
     </div>
     <div class="btn-box">
-      <el-tooltip content="点击复制 Staticaly CDN 外链" placement="top">
+      <el-tooltip content="点击复制 CDN 外链" placement="top">
         <span
           class="btn-item copy-url flex-center"
-          @click="copyLink(externalLinkType.staticaly)"
+          @click="copyLink(externalLinkType.jsdelivr)"
         >
-          Staticaly
+          CND
         </span>
       </el-tooltip>
-      <el-tooltip content="点击复制 Cloudflare CDN 外链" placement="top">
+      <el-tooltip content="点击复制 github 外链" placement="top">
         <span
           class="btn-item copy-url flex-center"
-          @click="copyLink(externalLinkType.cloudflare)"
+          @click="copyLink(externalLinkType.github)"
         >
-          Cloudflare
+          github
         </span>
       </el-tooltip>
     </div>

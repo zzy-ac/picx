@@ -37,12 +37,6 @@ export const generateExternalLink = (
 
   // eslint-disable-next-line default-case
   switch (type) {
-    case ExternalLinkType.staticaly:
-      return staticalyLink
-
-    case ExternalLinkType.cloudflare:
-      return cloudflareLink
-
     case ExternalLinkType.jsdelivr:
       return jsdelivrLink
 
